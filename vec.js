@@ -100,5 +100,8 @@ class Vec {
         return `{x: ${this.x}, y: ${this.y}}`;
     }
 }
+try {
+    // Export as module for testing, but basic script tag for use
+    module.exports = Vec;
+} catch() { }
 
-module.exports = Vec;
