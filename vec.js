@@ -101,7 +101,10 @@ class Vec {
     }
 }
 try {
-    // Export as module for testing, but basic script tag for use
+    // Export as module for testing
+    // and basic script tag for use
     module.exports = Vec;
-} catch() { }
+} catch(error) { 
+
+}
 
