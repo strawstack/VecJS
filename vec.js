@@ -1,7 +1,11 @@
+const Point = require('./Point.js');
+const Line = require('./Line.js');
+const Circle = require('./Circle.js');
+
 class Vec {
     constructor(x, y) {
         if (y === undefined) {
-            // Single numebr passed in
+            // Single number passed in
             if (typeof(x) === "number") {
                 this.x = x;
                 this.y = x;
@@ -104,7 +108,6 @@ try {
     // Export as module for testing
     // and basic script tag for use
     module.exports = Vec;
-} catch(error) { 
+} catch(error) {
 
 }
-

@@ -1,4 +1,7 @@
 const Vec = require('./Vec.js');
+const Point = require('./Point.js');
+const Line = require('./Line.js');
+const Circle = require('./Circle.js');
 
 function main() {
 
